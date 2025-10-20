@@ -1,0 +1,22 @@
+{
+  "name": "@keithclark/pixeldataview",
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist/"
+  ],
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/main.js"
+  },
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "author": "Keith Clark",
+  "license": "MIT",
+  "description": "A JavaScript module for working with pixel data stored in an ArrayBuffer",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4"
+  }
+}
